@@ -15,7 +15,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginBottom="44dp"
         android:orientation="vertical"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/palabra"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -32,11 +32,9 @@
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@color/amarillo"
+                android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
-                android:textColor="#FFFFFF"
                 android:textSize="34sp"
                 android:textStyle="bold"
                 tools:ignore="TextContrastCheck" />
@@ -49,7 +47,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -62,7 +59,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -75,7 +71,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -88,7 +83,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -108,7 +102,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -121,7 +114,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -132,11 +124,9 @@
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@color/verde"
+                android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
-                android:textColor="@color/white"
                 android:textSize="34sp"
                 android:textStyle="bold"
                 tools:ignore="TextContrastCheck" />
@@ -149,7 +139,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -162,7 +151,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -182,7 +170,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -195,7 +182,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -208,7 +194,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -221,7 +206,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -234,7 +218,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -254,7 +237,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -267,7 +249,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -280,7 +261,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -293,7 +273,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -306,7 +285,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -326,7 +304,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -339,7 +316,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -352,7 +328,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -363,11 +338,9 @@
                 android:layout_height="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:background="@color/gris"
+                android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
-                android:textColor="@color/white"
                 android:textSize="34sp"
                 android:textStyle="bold" />
 
@@ -379,7 +352,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -399,7 +371,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -412,7 +383,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -425,7 +395,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -438,7 +407,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -451,7 +419,6 @@
                 android:layout_weight="1"
                 android:background="@drawable/solo_borde"
                 android:gravity="center"
-                android:text="A"
                 android:textAlignment="center"
                 android:textSize="34sp"
                 android:textStyle="bold" />
@@ -459,7 +426,7 @@
     </TableLayout>
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/palabra"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -474,13 +441,13 @@
         app:layout_constraintVertical_bias="0.86" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/comprobar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:backgroundTint="@color/verde"
-        android:text="Enviar"
-        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        android:text="Comprobar"
+        app:layout_constraintEnd_toEndOf="@+id/palabra"
+        app:layout_constraintStart_toStartOf="@+id/palabra"
+        app:layout_constraintTop_toBottomOf="@+id/palabra" />
 </androidx.constraintlayout.widget.ConstraintLayout>
