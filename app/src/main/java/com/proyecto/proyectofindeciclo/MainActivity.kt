@@ -78,7 +78,7 @@ class MainActivity : AppCompatActivity() {
 
                     val dialogC = AlertDialog.Builder(this)
                         .setTitle("Has ganado")
-                        .setMessage("Enhorabuena!! :))))))))))))))))))))))))))))))))).")
+                        .setMessage("¡Enhorabuena, has ganado! Puedes volver a jugar, hay otras palabras por adivinar")
                         .setPositiveButton("Aceptar") { view, _ ->
                             view.dismiss()
                             startActivity(Intent.makeRestartActivityTask(this.intent?.component))
@@ -97,7 +97,7 @@ class MainActivity : AppCompatActivity() {
 
                     val dialogF = AlertDialog.Builder(this)
                         .setTitle("Has fallado")
-                        .setMessage("No pasa nada, puedes volver a intentarlo otra vez.")
+                        .setMessage("La palabra era:$adivinar. No pasa nada, puedes volver a intentarlo otra vez.")
                         .setPositiveButton("Aceptar") { view, _ ->
                             view.dismiss()
                             startActivity(Intent.makeRestartActivityTask(this.intent?.component))
