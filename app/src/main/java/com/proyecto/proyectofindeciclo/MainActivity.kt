@@ -88,9 +88,10 @@ class MainActivity : AppCompatActivity() {
 
                     dialogC.show()
 
+                }else{
+                    n_fila++
                 }
 
-                n_fila++
                 binding.palabra.text.clear()
 
                 if (n_fila == 6) {
