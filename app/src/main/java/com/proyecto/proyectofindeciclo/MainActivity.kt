@@ -8,6 +8,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import com.proyecto.proyectofindeciclo.databinding.ActivityMainBinding
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -40,7 +41,7 @@ class MainActivity : AppCompatActivity() {
                 posicionLetra = 0
                 letrasCorrectas = 0
 
-                val palabraComprobar = binding.palabra.text.toString().toUpperCase().toCharArray(0,5)
+                val palabraComprobar = binding.palabra.text.toString().uppercase().toCharArray(0,5)
                 val fila: TableRow = binding.tabla.getChildAt(n_fila) as TableRow
 
                 for (i in 0 until fila.childCount){
@@ -98,7 +99,7 @@ class MainActivity : AppCompatActivity() {
 
                     val dialogF = AlertDialog.Builder(this)
                         .setTitle("Has fallado")
-                        .setMessage("La palabra era:$adivinar. No pasa nada, puedes volver a intentarlo otra vez.")
+                        .setMessage("La palabra era: $adivinar. No pasa nada, puedes volver a intentarlo otra vez.")
                         .setPositiveButton("Aceptar") { view, _ ->
                             view.dismiss()
                             startActivity(Intent.makeRestartActivityTask(this.intent?.component))
@@ -125,7 +126,7 @@ class MainActivity : AppCompatActivity() {
     fun pintarCeldas(letra: String): Int {
 
         var resultado = 0
-        val adivinarP = adivinar.toUpperCase().toCharArray(0,5)
+        val adivinarP = adivinar.uppercase().toCharArray(0,5)
 
         for (i in adivinarP.indices) {
 
