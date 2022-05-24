@@ -1,14 +1,13 @@
 package com.proyecto.proyectofindeciclo
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TableRow
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import com.proyecto.proyectofindeciclo.databinding.ActivityMainBinding
-import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -26,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         adivinar = array_palabras[(0..9).random()]
-        Toast.makeText(this, adivinar, Toast.LENGTH_SHORT).show()
+//        Toast.makeText(this, adivinar, Toast.LENGTH_SHORT).show()
         binding.comprobar.setOnClickListener {
             comprobarLetras()
         }

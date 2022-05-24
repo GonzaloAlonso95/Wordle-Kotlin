@@ -3,6 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Wordle-Kotlin/app/src/main/res/drawable/solo_borde.xml" value="0.3325" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Wordle-Kotlin/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+        <entry key="..\:/Users/Usuario/AndroidStudioProjects/Wordle-Kotlin/app/src/main/res/layout/activity_splash_screen.xml" value="0.3625" />
         <entry key="..\:/Users/ik_2dm3/AndroidStudioProjects/Wordle-Kotlin/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/mikel/AndroidStudioProjects/Wordle-Kotlin/app/src/main/res/drawable/fondo_gris.xml" value="0.2985" />
         <entry key="..\:/Users/mikel/AndroidStudioProjects/Wordle-Kotlin/app/src/main/res/drawable/solo_borde.xml" value="0.2985" />
